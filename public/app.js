@@ -100,6 +100,9 @@ async function initializeApp() {
 
     // Load data
     await loadCategories();
+    // Make sure category options are updated right away!
+    updateCategoryOptions();
+    updateInvoiceCategories();
     await loadTransactions();
     await loadInvoices();
     await loadActivities();
