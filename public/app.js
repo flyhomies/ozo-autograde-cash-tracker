@@ -33,7 +33,7 @@ let editingInvoiceId = null;
 const PIN = '111606';
 
 // Backend API URL (will be updated once Render backend is ready!)
-const API_URL = ''; // Leave as empty string for relative paths (or use your Render URL later)
+const API_URL = 'https://ozo-autograde-cash-tracker.onrender.com';
 
 // ------------------------------ DOM ELEMENTS ------------------------------
 const elements = {
